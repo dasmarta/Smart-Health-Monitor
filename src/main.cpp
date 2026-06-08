@@ -97,7 +97,7 @@ int measureSpO2(long irValue, long redValue) {
   if (irValue > maxIR) maxIR = irValue;
   if (irValue < minIR) minIR = irValue;
 
-  if (millis() - sampleTime > 2000) {
+  if (millis() - sampleTime > 2500) {
     float irAC = maxIR - minIR;
     float redAC = maxRed - minRed;
 
@@ -105,7 +105,6 @@ int measureSpO2(long irValue, long redValue) {
       float R = (redAC / (float)redValue) / (irAC / (float)irValue);
       float calculation = 104 - 17 * R;
 
-      if (calculation < 94) calculation = 95 + (rand() % 3);
       finalSPO2 = (int)calculation;
     }
 
@@ -121,7 +120,7 @@ void measure_update() {
   long irValue = particleSensor.getIR();
   long redValue = particleSensor.getRed();
 
-  if (irValue < 28500) {
+  if (irValue < 23500) {
     measurementStart = 0;
     savedToHistory = false;
     finalBPM = 0;

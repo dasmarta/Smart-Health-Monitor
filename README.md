@@ -28,10 +28,22 @@ The system uses an OLED display for data visualization and a buzzer for audio al
 
 - Buzzer - Audio alerts
 
+## Scheme
+
+<p align="center">
+  <img src="images/scheme.jpg" alt="Breadboard prototype" width="500"/>
+</p>
+
 ## Prototype
 
 <p align="center">
   <img src="images/breadboard.jpg" alt="Breadboard prototype" width="500"/>
+</p>
+
+## Final product
+
+<p align="center">
+  <img src="images/final_product.jpg" alt="Breadboard prototype" width="500"/>
 </p>
 
 ## Features
@@ -45,6 +57,10 @@ The main menu contains:
 - Settings
 
 Navigation is performed using the rotary encoder.
+
+<p align="center">
+  <img src="images/main_menu.jpg" alt="Measuring results" width="450"/>
+</p>
 
 ### Measure
 
@@ -77,7 +93,7 @@ Data is stored using ESP32 `Preferences` memory.
 Some of the measuring results:
 
 <p align="center">
-  <img src="images/results.jpg" alt="Measuring results" width="450"/>
+  <img src="images/history.jpg" alt="Measuring results" width="450"/>
 </p>
 
 
