@@ -73,7 +73,7 @@ Measurement process:
 
 
 <p align="center">
-  <img src="images/measuring.jpg" alt="Measuring results" width="450"/>
+  <img src="images/measuring_pulse.jpg" alt="Measuring results" width="450"/>
 </p>
 
 
@@ -107,7 +107,7 @@ The following parameters can be configured:
 
 
 <p align="center">
-  <img src="images/settings.jpg" alt="Measuring results" width="450"/>
+  <img src="images/settings_screen.jpg" alt="Measuring results" width="450"/>
 </p>
 
 
